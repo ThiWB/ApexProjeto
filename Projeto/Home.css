@@ -18,87 +18,87 @@ body {
 }
 
 .login-form {
-    margin-right: 170px;
-    padding: 20px;
+    margin-right: 10.625rem; /* 170px */
+    padding: 1.25rem; /* 20px */
     background: url(border.jpg);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 1.25rem; /* 20px */
     font-family: "Bebas Neue", sans-serif;
-    font-size: 28px;
-    box-shadow: 5px 10px  100px black;
+    font-size: 1.75rem; /* 28px */
+    box-shadow: 0.3125rem 0.625rem 6.25rem black; /* 5px 10px 100px */
 }
 
-.inf{
+.inf {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 35px;
+    font-size: 2.1875rem; /* 35px */
     color: white;
     display: flex;
     flex-direction: column; /* Stack title and subtitle */
     justify-content: center;
     align-items: flex-start; /* Align items to the left */
-    padding-left: 0px; /* Add some left padding */
+    padding-left: 0; /* Add some left padding */
     width: 50%; /* Adjust as needed for layout */
-    margin-top: -600px;
-    margin-left: 67px;
-    text-shadow: 8px 1px 10px black;
+    margin-top: -37.5rem; /* -600px */
+    margin-left: 4.1875rem; /* 67px */
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .title {
     font-family: "Archivo Black", sans-serif;
     color: white;
-    padding-left: 67px;
-    font-size: 57px;
-    margin-top: 15px;
-    margin-bottom: -30px;
+    padding-left: 4.1875rem; /* 67px */
+    font-size: 3.5625rem; /* 57px */
+    margin-top: 0.9375rem; /* 15px */
+    margin-bottom: -1.875rem; /* -30px */
     text-transform: uppercase;
-    margin-left: -67px;
-    margin-bottom: 20px;
-    text-shadow: 8px 1px 10px black;
+    margin-left: -4.1875rem; /* -67px */
+    margin-bottom: 1.25rem; /* 20px */
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .informations {
     font-family: "Bebas Neue", sans-serif;
-    padding-left: 67px;
+    padding-left: 4.1875rem; /* 67px */
     display: flex;
-    margin-bottom: -84px;
+    margin-bottom: -5.25rem; /* -84px */
 }
 
 .buttons {
     font-family: "Anton", sans-serif;
     padding-left: 0;
-    height: 23px;
+    height: 1.4375rem; /* 23px */
     margin: auto;
-    margin-left: 10px;
-    word-spacing: 25px;
+    margin-left: 0.625rem; /* 10px */
+    word-spacing: 1.5625rem; /* 25px */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
     background: linear-gradient(135deg, #19bed4, #0c09c5);
-    border-radius: 5px;
-    padding: 10px 15px;
+    border-radius: 0.3125rem; /* 5px */
+    padding: 0.625rem 0.9375rem; /* 10px 15px */
     transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.2);
 }
 
 a:hover {
     background: linear-gradient(135deg, #1c5980, #54a1db);
-    transform: translateY(-2px);
+    transform: translateY(-0.125rem); /* -2px */
 }
 
-h3{
+h3 {
     text-align: justify;
     color: white;
 }
 
-h1{
+h1 {
     color: white;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px */
     color: white;
     font-family: "Archivo Black", sans-serif;
     text-transform: uppercase;
@@ -106,39 +106,39 @@ h2 {
 
 label {
     display: block;
-    margin-bottom: 5px;
-    margin-right: 180px; /* Adjust as needed for spacing */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 0.3125rem; /* 5px */
+    margin-right: 11.25rem; /* 180px */
+    padding-top: 1.25rem; /* 20px */
+    padding-bottom: 1.25rem; /* 20px */
     color: white;
 }
 
 input {
     width: 94%;
-    padding: 10px;
+    padding: 0.625rem; /* 10px */
     border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    border-radius: 0.3125rem; /* 5px */
+    margin-bottom: 0.9375rem; /* 15px */
     background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better visibility */
 }
 
 .button {
-    margin-left: 50px;
+    margin-left: 3.125rem; /* 50px */
     display: block;
-    width: 70%;
+    width: 70%; /* Pode ser ajustado conforme necessário */
     color: #ffffff;
     text-decoration: none;
     background: linear-gradient(135deg, #19bed4, #0c09c5);
-    border-radius: 5px;
+    border-radius: 0.3125rem; /* 5px */
     transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.2);
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 1.125rem; /* 18px */
+    letter-spacing: 0.125rem; /* 2px */
 }
 
 .button:hover {
     background: linear-gradient(135deg, #1c5980, #54a1db);
-    transform: translateY(-2px);
+    transform: translateY(-0.125rem); /* -2px */
 }

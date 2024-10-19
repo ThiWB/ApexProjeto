@@ -1,13 +1,13 @@
 .card {
     font-family: "Anton", sans-serif;
     width: 90%;
-    max-width: 470px;
+    max-width: 29.375rem; /* 470px */
     background: linear-gradient(135deg, #19bed4, #0c09c5);
     color: #fff;
-    border-radius: 20px;
-    padding: 40px 35px; 
+    border-radius: 1.25rem; /* 20px */
+    padding: 2.5rem 2.1875rem; /* 40px 35px */
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.3);
 }
 
 .search {
@@ -23,12 +23,12 @@
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    padding: 0.625rem 1.5625rem; /* 10px 25px */
+    height: 3.75rem; /* 60px */
+    border-radius: 1.875rem; /* 30px */
     flex: 1;
-    margin-right: 16px;
-    font-size: 18px;
+    margin-right: 1rem; /* 16px */
+    font-size: 1.125rem; /* 18px */
 }
 
 .search button {
@@ -37,33 +37,33 @@
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 3.75rem; /* 60px */
+    height: 3.75rem; /* 60px */
     cursor: pointer;
 }
 
 .search button img {
     font-family: "Anton", sans-serif;
-    width: 45px;
+    width: 2.8125rem; /* 45px */
 }
 
 .weather-icon {
     font-family: "Anton", sans-serif;
-    width: 170px;
-    margin-top: 30px;
+    width: 10.625rem; /* 170px */
+    margin-top: 1.875rem; /* 30px */
 }
 
 .weather h1 {
     font-family: "Anton", sans-serif;
-    font-size: 80px;
+    font-size: 5rem; /* 80px */
     font-weight: 500;
 }
 
 .weather h2 {
     font-family: "Anton", sans-serif;
-    font-size: 45px;
+    font-size: 2.8125rem; /* 45px */
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: -0.625rem; /* -10px */
 }
 
 .details {
@@ -71,8 +71,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
+    padding: 0 1.25rem; /* 0 20px */
+    margin-top: 3.125rem; /* 50px */
 }
 
 .col {
@@ -84,13 +84,13 @@
 
 .col img {
     font-family: "Anton", sans-serif;
-    width: 40px;
-    margin-right: 10px;
+    width: 2.5rem; /* 40px */
+    margin-right: 0.625rem; /* 10px */
 }
 
 .humidity, .wind {
-    font-size: 28px;
-    margin-top: -6px;
+    font-size: 1.75rem; /* 28px */
+    margin-top: -0.375rem; /* -6px */
 }
 
 .weather {
@@ -99,104 +99,104 @@
 
 .error {
     text-align: left;
-    margin-left: 10px;  
-    font-size: 14px;
-    margin-top: 10px;
+    margin-left: 0.625rem; /* 10px */  
+    font-size: 0.875rem; /* 14px */
+    margin-top: 0.625rem; /* 10px */
     display: none;
 }
 
 /* Additional styles for centering */
 .card {
-    margin-top: 90px;
-    margin-left: 720px;
+    margin-top: 5.625rem; /* 90px */
+    margin-left: 45rem; /* 720px */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centering contents in the card */
 }
 
-.search{
+.search {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.search input{
+.search input {
     border: 0;
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    padding: 0.625rem 1.5625rem; /* 10px 25px */
+    height: 3.75rem; /* 60px */
+    border-radius: 1.875rem; /* 30px */
     flex: 1;
-    margin-right: 16px;
-    font-size: 18px;
+    margin-right: 1rem; /* 16px */
+    font-size: 1.125rem; /* 18px */
 }
 
-.search button{
+.search button {
     border: 0;
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 3.75rem; /* 60px */
+    height: 3.75rem; /* 60px */
     cursor: pointer;
 }
 
-.search button img{
-    width: 45px;
+.search button img {
+    width: 2.8125rem; /* 45px */
 }
 
-.weather-icon{
-    width: 170px;
-    margin-top: 30px;
+.weather-icon {
+    width: 10.625rem; /* 170px */
+    margin-top: 1.875rem; /* 30px */
 }
 
-.weather h1{
-    font-size: 80px;
+.weather h1 {
+    font-size: 5rem; /* 80px */
     font-weight: 500;
 }
 
-.weather h2{
-    font-size: 45px;
+.weather h2 {
+    font-size: 2.8125rem; /* 45px */
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: -0.625rem; /* -10px */
 }
 
-.details{
+.details {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
+    padding: 0 1.25rem; /* 0 20px */
+    margin-top: 3.125rem; /* 50px */
 }
 
-.col{
+.col {
     display: flex;
     align-items: center;
     text-align: left;
 }
 
-.col img{
-    width: 40px;
-    margin-right: 10px;
+.col img {
+    width: 2.5rem; /* 40px */
+    margin-right: 0.625rem; /* 10px */
 }
 
-.humidity, .wind{
-    font-size: 28px;
-    margin-top: -6px;
+.humidity, .wind {
+    font-size: 1.75rem; /* 28px */
+    margin-top: -0.375rem; /* -6px */
 }
 
-.weather{
+.weather {
     display: none;   
 }
 
-.error{
+.error {
     text-align: left;
-    margin-left: 10px;  
-    font-size: 14px;
-    margin-top: 10px;
+    margin-left: 0.625rem; /* 10px */  
+    font-size: 0.875rem; /* 14px */
+    margin-top: 0.625rem; /* 10px */
     display: none;
 }
 
@@ -215,93 +215,91 @@ h1, h2 {
 
 a:hover {
     background: linear-gradient(135deg, #1c5980, #54a1db);
-    transform: translateY(-3px);
+    transform: translateY(-0.1875rem); /* -3px */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
     background: linear-gradient(135deg, #19bed4, #0c09c5);
-    border-radius: 5px;
-    padding: 10px 15px;
+    border-radius: 0.3125rem; /* 5px */
+    padding: 0.625rem 0.9375rem; /* 10px 15px */
     transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.2);
 }
-
-
 
 .imgBackground {
     background-image: url(imgGif.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 990px;
+    height: 61.875rem; /* 990px */
 }
 
 .title {
     font-family: "Archivo Black", sans-serif;
     color: white;
-    padding-left: 67px;
-    font-size: 80px;
-    margin-top: 185px;
-    margin-bottom: -30px;
+    padding-left: 4.1875rem; /* 67px */
+    font-size: 5rem; /* 80px */
+    margin-top: 11.5625rem; /* 185px */
+    margin-bottom: -1.875rem; /* -30px */
     text-transform: uppercase;
-    text-shadow: 8px 1px 10px black;
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .subtitle {
     font-family: "Archivo Black", sans-serif;
     color: white;
-    padding-left: 67px;
-    font-size: 38px;
-    text-shadow: 8px 1px 10px black;
+    padding-left: 4.1875rem; /* 67px */
+    font-size: 2.375rem; /* 38px */
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .informations {
     font-family: "Bebas Neue", sans-serif;
-    padding-left: 67px;
+    padding-left: 4.1875rem; /* 67px */
     display: flex;
 }
 
 .buttons {
     font-family: "Anton", sans-serif;
     padding-left: 0;
-    height: 23px;
+    height: 1.4375rem; /* 23px */
     margin: auto;
-    margin-left: 10px;
-    word-spacing: 25px;
+    margin-left: 0.625rem; /* 10px */
+    word-spacing: 1.5625rem; /* 25px */
 }
 
 .main-inf {
     font-family: "Bebas Neue", sans-serif;
-    word-spacing: 5px;
-    letter-spacing: 1px;
-    padding-top: 200px;
-    padding-left: 67px;
-    width: 860px;
+    word-spacing: 0.3125rem; /* 5px */
+    letter-spacing: 0.0625rem; /* 1px */
+    padding-top: 12.5rem; /* 200px */
+    padding-left: 4.1875rem; /* 67px */
+    width: 53.75rem; /* 860px */
     text-align: justify;
-    margin-top: -225px;
-    text-shadow: 8px 1px 10px black;
+    margin-top: -14.0625rem; /* -225px */
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .bottom-buttons {
     font-family: "Anton", sans-serif;
     color: white;
-    margin-top: 32px;
-    padding-left: 67px;
-    word-spacing: 12px;
+    margin-top: 2rem; /* 32px */
+    padding-left: 4.1875rem; /* 67px */
+    word-spacing: 0.75rem; /* 12px */
     border: none;
 }
 
 .right-images {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 1.25rem; /* 20px */
     align-items: center;
-    height: calc(100vh - 325px);
-    width: 395px;
+    height: calc(100vh - 20.3125rem); /* 100vh - 325px */
+    width: 24.6875rem; /* 395px */
     position: fixed;
-    top: 168px;
-    right: 200px;
-    padding: 20px;
+    top: 10.5rem; /* 168px */
+    right: 12.5rem; /* 200px */
+    padding: 1.25rem; /* 20px */
     overflow: auto;
     z-index: 1000;
     display: flex;
@@ -312,8 +310,8 @@ a {
 
 .right-images div {
     width: 100%;
-    height: 150px;
-    border-radius: 10px;
+    height: 9.375rem; /* 150px */
+    border-radius: 0.625rem; /* 10px */
     position: relative; /* Ensure relative positioning for text */
     overflow: hidden;
 }
@@ -329,16 +327,16 @@ a {
 .right-images div .image-text {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 0.5rem; /* 8px */
     position: absolute;
     top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 39px;
+    font-size: 2.4375rem; /* 39px */
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
 }
 
 .right-images div:hover img {
@@ -348,22 +346,14 @@ a {
 }
 
 .right-images div:hover .image-text {
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Darker shadow on hover */
-    font-size: 39px;
+    text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.8); /* Darker shadow on hover */
+    font-size: 2.4375rem; /* 39px */
 }
 
 /* Media query adjustments */
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) { /* 600px */
     .right-images {
         width: 100%; 
         right: 0; 
     }
 }
-
-
-
-
-
-
-
-
