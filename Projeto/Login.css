@@ -144,3 +144,100 @@ button:hover {
     background: linear-gradient(135deg, #1c5980, #54a1db);
     transform: translateY(-0.125rem); /* -2px */
 }
+
+@media (max-width: 1200px) {
+    .login-container {
+        justify-content: center;
+    }
+
+    .login-form {
+        width: 80%; /* Ajusta a largura para 80% em telas menores */
+        margin-right: 0; /* Remove a margem direita */
+    }
+
+    .inf {
+        margin-left: 2rem; /* Reduz a margem esquerda */
+        margin-top: -30rem; /* Ajusta a posição do texto */
+    }
+
+    .title {
+        font-size: 4rem; /* Reduz o tamanho da fonte */
+        margin-left: -2rem; /* Ajusta a margem esquerda */
+    }
+
+    .buttons {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+        word-spacing: normal; /* Remove o espaçamento extra */
+    }
+}
+
+@media (max-width: 900px) {
+    .login-form {
+        width: 90%; /* Ajusta a largura para 90% */
+        padding: 0.625rem; /* Diminui o padding */
+    }
+
+    .title {
+        font-size: 3.5rem; /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .inf {
+        font-size: 1.5rem; /* Reduz o tamanho da fonte */
+        margin-top: -20rem; /* Ajusta a posição do texto */
+    }
+
+    label {
+        margin-right: 0; /* Remove a margem direita */
+        padding-top: 0.625rem; /* Diminui o padding */
+    }
+
+    input {
+        width: 100%; /* Altera a largura para 100% */
+    }
+}
+
+@media (max-width: 600px) {
+    .login-form {
+        width: 95%; /* Ajusta a largura para 95% */
+        margin: 0 auto; /* Centraliza o formulário */
+    }
+
+    .title {
+        font-size: 3rem; /* Reduz o tamanho da fonte */
+        margin-bottom: 0.625rem; /* Ajusta a margem inferior */
+    }
+
+    .inf {
+        font-size: 1.25rem; /* Reduz o tamanho da fonte */
+        margin-top: -15rem; /* Ajusta a posição do texto */
+    }
+
+    button {
+        font-size: 1rem; /* Reduz o tamanho da fonte do botão */
+    }
+
+    label {
+        padding-top: 0.3125rem; /* Diminui o padding */
+        padding-bottom: 0.3125rem; /* Diminui o padding */
+    }
+}
+
+/* Para telas extremamente pequenas (como celulares) */
+@media (max-width: 400px) {
+    .title {
+        font-size: 2.5rem; /* Tamanho da fonte menor */
+    }
+
+    .inf {
+        font-size: 1rem; /* Tamanho da fonte menor */
+    }
+
+    button {
+        padding: 0.5rem; /* Reduz o padding do botão */
+        font-size: 0.9rem; /* Tamanho da fonte do botão menor */
+    }
+
+    input {
+        padding: 0.5rem; /* Diminui o padding */
+    }
+}
