@@ -163,7 +163,7 @@ a {
 
     .right-images {
         width: 80%; /* Ajusta a largura dos elementos à direita */
-        margin-right: 200px; /* Centraliza na tela */
+        margin-right: -200px; /* Centraliza na tela */
         top: 5rem; /* Ajusta a posição */
     }
 
@@ -191,6 +191,7 @@ a {
     }
 
     .right-images {
+        margin-right: -100px;
         width: 25%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
