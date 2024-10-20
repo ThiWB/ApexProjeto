@@ -179,7 +179,7 @@ a {
 /* Media Queries para telas maiores */
 @media (min-width: 1200px) {
     .title {
-        font-size: 4rem; /* Aumenta o tamanho do título */
+        font-size: 3rem; /* Aumenta o tamanho do título */
     }
 
     .subtitle {
