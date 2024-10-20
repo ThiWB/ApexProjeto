@@ -163,7 +163,7 @@ a {
 
     .right-images {
         width: 80%; /* Ajusta a largura dos elementos à direita */
-        right: 10%; /* Centraliza na tela */
+        right: 50%; /* Centraliza na tela */
         top: 5rem; /* Ajusta a posição */
     }
 
