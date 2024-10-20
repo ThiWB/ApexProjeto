@@ -144,7 +144,7 @@ a {
 
 @media (max-width: 62.5rem) { /* 1000px */
     .right-images {
-        right: 3rem; /* Ajusta a margem direita */
+        right: 1rem; /* Ajusta a margem direita */
         width: 80%; /* Ajusta a largura para 80% */
         top: 6rem; /* Ajusta a posição para cima */
         margin-left: auto; /* Garante centralização horizontal */
@@ -159,11 +159,9 @@ a {
 
 @media (max-width: 37.5rem) { /* 600px */
     .right-images {
-        right: 2rem; /* Alinha mais à direita */
+        right: 1rem; /* Alinha mais à direita */
         width: 90%; /* Mantém a largura em 90% */
         top: 4rem; /* Ajusta a posição para cima */
-        margin-left: auto; /* Garante centralização horizontal */
-        margin-right: auto; /* Garante centralização horizontal */
     }
 
     .right-images div {
