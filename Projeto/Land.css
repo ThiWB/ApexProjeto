@@ -148,7 +148,7 @@ a {
     }
 
     .title {
-        font-size: 3rem; /* Ajusta o tamanho do título */
+        font-size: 2rem; /* Ajusta o tamanho do título */
         margin-top: 8rem; /* Ajusta a margem superior */
     }
 
@@ -179,7 +179,7 @@ a {
 /* Media Queries para telas maiores */
 @media (min-width: 1200px) {
     .title {
-        font-size: 6rem; /* Aumenta o tamanho do título */
+        font-size: 4rem; /* Aumenta o tamanho do título */
     }
 
     .subtitle {
@@ -200,7 +200,7 @@ a {
 /* Media Queries para telas muito pequenas */
 @media (max-width: 480px) {
     .title {
-        font-size: 2.5rem; /* Ajusta o tamanho do título */
+        font-size: 2.0rem; /* Ajusta o tamanho do título */
         margin-top: 5rem; /* Ajusta a margem superior */
     }
 
@@ -241,7 +241,7 @@ a {
 /* Media Queries para telas intermediárias */
 @media (max-width: 768px) and (min-width: 481px) {
     .title {
-        font-size: 3.5rem; /* Ajusta o tamanho do título */
+        font-size: 2.8rem; /* Ajusta o tamanho do título */
         margin-top: 7rem; /* Ajusta a margem superior */
     }
 
