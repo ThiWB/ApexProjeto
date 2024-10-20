@@ -8,18 +8,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: flex-end;
     height: 100vh;
     background-image: url(imgGif.gif);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Prevent image repetition */
-    background-attachment: fixed; /* Ensure background doesn't scroll */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .login-form {
     width: 31.25rem; /* 500px */
-    margin-right: 6.25rem; /* 100px */
+    margin-right: -68.25rem; /* 100px */
     padding: 1.25rem; /* 20px */
     background: url(border.jpg);
     backdrop-filter: blur(10px);
@@ -34,11 +33,11 @@ body {
     font-size: 1.875rem; /* 30px */
     color: white;
     display: flex;
-    flex-direction: column; /* Stack title and subtitle */
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* Align items to the left */
-    padding-left: 0; /* Add some left padding */
-    width: 50%; /* Adjust as needed for layout */
+    align-items: flex-start;
+    padding-left: 0;
+    width: 50%;
     margin-top: -37.5rem; /* -600px */
     margin-left: 4.1875rem; /* 67px */
     text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
@@ -91,14 +90,13 @@ h3 {
     text-align: justify;
 }
 
-h1 {
+h1, h2 {
     color: white;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 1.25rem; /* 20px */
-    color: white;
     font-family: "Archivo Black", sans-serif;
     text-transform: uppercase;
 }
@@ -118,12 +116,12 @@ input {
     border: 1px solid #ccc;
     border-radius: 0.3125rem; /* 5px */
     margin-bottom: 0.9375rem; /* 15px */
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better visibility */
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .button {
     display: block;
-    width: 12%; /* Pode ser ajustado conforme necessário */
+    width: 12%; /* Ajuste conforme necessário */
     margin-left: 40%;
     color: #ffffff;
     text-decoration: none;
@@ -140,4 +138,60 @@ input {
 .button:hover {
     background: linear-gradient(135deg, #1c5980, #54a1db);
     transform: translateY(-0.125rem); /* -2px */
+}
+
+/* Media query adjustments */
+@media (max-width: 62.5rem) { /* 1000px */
+    .login-form {
+        width: 90%; /* Reduz a largura */
+        margin-right: 2rem; /* 32px */
+    }
+
+    .inf {
+        margin-top: -20rem; /* Ajuste para centralizar em telas menores */
+        margin-left: 2rem; /* 32px */
+    }
+
+    .title {
+        font-size: 3rem; /* 48px */
+        margin-bottom: 1rem; /* 16px */
+    }
+
+    .informations {
+        margin-bottom: -2rem; /* Ajuste */
+    }
+
+    input {
+        width: 100%; /* Largura total */
+    }
+
+    .button {
+        width: 50%; /* Aumenta a largura do botão */
+        margin-left: 25%; /* Centraliza o botão */
+    }
+}
+
+@media (max-width: 37.5rem) { /* 600px */
+    .login-form {
+        width: 100%; /* Largura total */
+        margin-right: 0; /* Remove margem */
+    }
+
+    .inf {
+        margin-top: -10rem; /* Ajuste */
+        margin-left: 1rem; /* 16px */
+    }
+
+    .title {
+        font-size: 2.5rem; /* 40px */
+    }
+
+    .informations {
+        margin-bottom: -1rem; /* Ajuste */
+    }
+
+    .button {
+        width: 70%; /* Aumenta a largura do botão */
+        margin-left: 15%; /* Centraliza o botão */
+    }
 }
