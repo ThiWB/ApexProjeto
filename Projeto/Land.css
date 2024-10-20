@@ -142,46 +142,4 @@ a {
     font-size: 2.4375rem; /* 39px */
 }
 
-@media (max-width: 62.5rem) { /* 1000px */
-    .right-images {
-        margin: 0 auto; /* Centraliza horizontalmente */
-        width: 80%; /* Largura de 80% */
-        top: 6rem; /* Ajusta a posição para cima */
-    }
 
-    .right-images div {
-        margin-bottom: 1rem; /* Espaçamento entre as imagens */
-    }
-}
-
-@media (max-width: 37.5rem) { /* 600px */
-    .right-images {
-        margin: 0 auto; /* Centraliza horizontalmente */
-        width: 90%; /* Mantém a largura em 90% */
-        top: 4rem; /* Ajusta a posição para cima */
-    }
-
-    .right-images div {
-        height: 5rem; /* Altura das imagens */
-        margin-bottom: 0.5rem; /* Espaçamento entre as imagens reduzido */
-    }
-
-    .title {
-        font-size: 3rem; /* Ajusta o tamanho do título */
-        margin-top: 5rem; /* Margem superior ajustada */
-        margin-bottom: 1rem; /* Margem inferior ajustada */
-        padding-left: 1rem; /* Preenchimento à esquerda */
-    }
-
-    .subtitle {
-        font-size: 1.5rem; /* Ajusta o tamanho do subtítulo */
-        margin-bottom: 2rem; /* Margem inferior ajustada */
-        padding-left: 1rem; /* Preenchimento à esquerda */
-    }
-
-    .main-inf {
-        padding-left: 1rem; /* Ajusta o preenchimento à esquerda */
-        padding-top: 6rem; /* Ajusta o preenchimento superior */
-        margin-top: 0; /* Remove a margem superior negativa */
-    }
-}
