@@ -18,6 +18,7 @@ body {
 }
 
 .login-form {
+    transform: scale(0.8);
     width: 31.25rem; /* 500px */
     margin-right: 10.625rem; /* 170px */
     padding: 1.25rem; /* 20px */
@@ -145,99 +146,130 @@ button:hover {
     transform: translateY(-0.125rem); /* -2px */
 }
 
-@media (max-width: 1200px) {
-    .login-container {
-        justify-content: center;
-    }
-
-    .login-form {
-        width: 80%; /* Ajusta a largura para 80% em telas menores */
-        margin-right: 0; /* Remove a margem direita */
-    }
-
-    .inf {
-        margin-left: 2rem; /* Reduz a margem esquerda */
-        margin-top: -30rem; /* Ajusta a posição do texto */
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    body {
+        overflow: hidden; /* Remove a barra de rolagem */
     }
 
     .title {
-        font-size: 4rem; /* Reduz o tamanho da fonte */
-        margin-left: -2rem; /* Ajusta a margem esquerda */
+        font-size: 2rem; /* Ajusta o tamanho do título */
+        margin-top: 8rem; /* Ajusta a margem superior */
+    }
+
+    .subtitle {
+        font-size: 1.5rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 90%; /* Aumenta a largura do texto */
+        padding-left: 2rem; /* Ajusta o padding */
+    }
+
+    .right-images {
+        width: 80%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -200px; /* Centraliza na tela */
+        top: 5rem; /* Ajusta a posição */
+    }
+
+    .right-images div {
+        height: 5rem; /* Ajusta a altura das imagens */
+    }
+
+    .right-images div .image-text {
+        font-size: 1.5rem; /* Ajusta o tamanho do texto das imagens */
+    }
+}
+
+/* Media Queries para telas maiores */
+@media (min-width: 1200px) {
+    .title {
+        font-size: 3rem; /* Aumenta o tamanho do título */
+    }
+
+    .subtitle {
+        font-size: 3rem; /* Aumenta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 80%; /* Aumenta a largura do texto */
+    }
+
+    .login-form {
+        width: 25%; /* Ajusta a largura dos elementos à direita */
+        top: 10rem; /* Mantém a posição */
+    }
+}
+
+/* Media Queries para telas muito pequenas */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.6rem; /* Ajusta o tamanho do título */
+        margin-top: 5rem; /* Ajusta a margem superior */
+    }
+
+    .subtitle {
+        font-size: 0.8rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 95%; /* Aumenta a largura do texto */
+        padding-left: 1rem; /* Ajusta o padding */
+        margin-top: -10rem; /* Ajusta a margem superior */
+    }
+
+    .right-images {
+        width: 90%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -50px; /* Centraliza na tela */
+        top: 3rem; /* Ajusta a posição */
+    }
+
+    .right-images div {
+        height: 4rem; /* Ajusta a altura das imagens */
+    }
+
+    .right-images div .image-text {
+        font-size: 1.2rem; /* Ajusta o tamanho do texto das imagens */
     }
 
     .buttons {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
-        word-spacing: normal; /* Remove o espaçamento extra */
+        word-spacing: 1rem; /* Reduz o espaçamento entre os botões */
+    }
+
+    .bottom-buttons {
+        font-size: 1.2rem; /* Ajusta o tamanho do texto dos botões inferiores */
+        padding-left: 1rem; /* Ajusta o padding */
     }
 }
 
-@media (max-width: 900px) {
-    .login-form {
-        width: 90%; /* Ajusta a largura para 90% */
-        padding: 0.625rem; /* Diminui o padding */
-    }
-
+/* Media Queries para telas intermediárias */
+@media (max-width: 768px) and (min-width: 481px) {
     .title {
-        font-size: 3.5rem; /* Reduz ainda mais o tamanho da fonte */
+        font-size: 2.0rem; /* Ajusta o tamanho do título */
+        margin-top: 7rem; /* Ajusta a margem superior */
     }
 
-    .inf {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte */
-        margin-top: -20rem; /* Ajusta a posição do texto */
+    .subtitle {
+        font-size: 1.3rem; /* Ajusta o tamanho do subtítulo */
     }
 
-    label {
-        margin-right: 0; /* Remove a margem direita */
-        padding-top: 0.625rem; /* Diminui o padding */
+    .main-inf {
+        width: 90%; /* Aumenta a largura do texto */
+        padding-left: 2rem; /* Ajusta o padding */
+        margin-top: -12rem; /* Ajusta a margem superior */
     }
 
-    input {
-        width: 100%; /* Altera a largura para 100% */
-    }
-}
-
-@media (max-width: 600px) {
-    .login-form {
-        width: 95%; /* Ajusta a largura para 95% */
-        margin: 0 auto; /* Centraliza o formulário */
+    .right-images {
+        width: 80%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -100px; /* Centraliza na tela */
+        top: 5rem; /* Ajusta a posição */
     }
 
-    .title {
-        font-size: 3rem; /* Reduz o tamanho da fonte */
-        margin-bottom: 0.625rem; /* Ajusta a margem inferior */
+    .right-images div {
+        height: 6rem; /* Ajusta a altura das imagens */
     }
 
-    .inf {
-        font-size: 1.25rem; /* Reduz o tamanho da fonte */
-        margin-top: -15rem; /* Ajusta a posição do texto */
-    }
-
-    button {
-        font-size: 1rem; /* Reduz o tamanho da fonte do botão */
-    }
-
-    label {
-        padding-top: 0.3125rem; /* Diminui o padding */
-        padding-bottom: 0.3125rem; /* Diminui o padding */
-    }
-}
-
-/* Para telas extremamente pequenas (como celulares) */
-@media (max-width: 400px) {
-    .title {
-        font-size: 2.5rem; /* Tamanho da fonte menor */
-    }
-
-    .inf {
-        font-size: 1rem; /* Tamanho da fonte menor */
-    }
-
-    button {
-        padding: 0.5rem; /* Reduz o padding do botão */
-        font-size: 0.9rem; /* Tamanho da fonte do botão menor */
-    }
-
-    input {
-        padding: 0.5rem; /* Diminui o padding */
+    .right-images div .image-text {
+        font-size: 1.8rem; /* Ajusta o tamanho do texto das imagens */
     }
 }
