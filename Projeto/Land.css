@@ -145,7 +145,7 @@ a {
 /* Media query adjustments */
 @media (max-width: 62.5rem) { /* 1000px */
     .right-images {
-        right: 3rem; /* Aumenta o espaço à direita */
+        right: 6rem; /* Aumenta o espaço à direita */
         width: 70%; /* Ajusta largura */
         top: 8rem; /* Ajusta a posição */
     }
@@ -153,7 +153,7 @@ a {
 
 @media (max-width: 37.5rem) { /* 600px */
     .right-images {
-        right: 1rem; /* Alinha à direita em telas menores */
+        right: 5rem; /* Alinha à direita em telas menores */
         width: 90%; /* Ajusta largura */
         top: 5rem; /* Ajusta a posição */
     }
