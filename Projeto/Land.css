@@ -89,13 +89,13 @@ a {
 }
 
 .right-images {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: calc(100vh - 20.3125rem);
     width: 24.6875rem;
-    position: fixed; /* Imagens fixas */
+    position: absolute; /* Imagens fixas */
     top: 10.5rem; /* Altura fixa em relação ao topo da viewport */
     right: 12.5rem;
     padding: 1.25rem;
@@ -143,6 +143,10 @@ a {
 
 /* Media Queries para telas menores */
 @media (max-width: 768px) {
+    body {
+        overflow: hidden; /* Remove a barra de rolagem */
+    }
+
     .title {
         font-size: 3rem; /* Ajusta o tamanho do título */
         margin-top: 8rem; /* Ajusta a margem superior */
@@ -191,3 +195,4 @@ a {
         top: 10rem; /* Mantém a posição */
     }
 }
+
