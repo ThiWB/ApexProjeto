@@ -18,7 +18,6 @@ body {
 }
 
 .login-form {
-    transform: scale(0.8);
     width: 31.25rem; /* 500px */
     margin-right: 10.625rem; /* 170px */
     padding: 1.25rem; /* 20px */
@@ -179,6 +178,11 @@ button:hover {
     .right-images div .image-text {
         font-size: 1.5rem; /* Ajusta o tamanho do texto das imagens */
     }
+    .login-form {
+        transform: scale(0.8);
+        width: 25%; /* Ajusta a largura dos elementos à direita */
+        top: 10rem; /* Mantém a posição */
+    }
 }
 
 /* Media Queries para telas maiores */
@@ -196,6 +200,7 @@ button:hover {
     }
 
     .login-form {
+        transform: scale(0.8);
         width: 25%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
@@ -240,6 +245,11 @@ button:hover {
         font-size: 1.2rem; /* Ajusta o tamanho do texto dos botões inferiores */
         padding-left: 1rem; /* Ajusta o padding */
     }
+    .login-form {
+        transform: scale(0.8);
+        width: 25%; /* Ajusta a largura dos elementos à direita */
+        top: 10rem; /* Mantém a posição */
+    }
 }
 
 /* Media Queries para telas intermediárias */
@@ -271,5 +281,10 @@ button:hover {
 
     .right-images div .image-text {
         font-size: 1.8rem; /* Ajusta o tamanho do texto das imagens */
+    }
+    .login-form {
+        transform: scale(0.8);
+        width: 25%; /* Ajusta a largura dos elementos à direita */
+        top: 10rem; /* Mantém a posição */
     }
 }
