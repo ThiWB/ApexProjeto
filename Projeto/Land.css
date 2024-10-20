@@ -95,8 +95,8 @@ a {
     align-items: center;
     height: calc(100vh - 20.3125rem);
     width: 24.6875rem;
-    position: fixed;
-    top: 10.5rem;
+    position: fixed; /* Imagens fixas */
+    top: 10.5rem; /* Altura fixa em relação ao topo da viewport */
     right: 12.5rem;
     padding: 1.25rem;
     z-index: 1000;
@@ -104,7 +104,7 @@ a {
 
 .right-images div {
     width: 100%;
-    height: 9.375rem;
+    height: 9.375rem; /* Ajuste padrão */
     border-radius: 0.625rem;
     position: relative;
     overflow: hidden;
@@ -164,7 +164,7 @@ a {
     }
 
     .right-images div {
-        height: 7rem; /* Ajusta a altura das imagens */
+        height: 5rem; /* Ajusta a altura das imagens */
     }
 
     .right-images div .image-text {
