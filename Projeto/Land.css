@@ -5,7 +5,6 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    overflow-x: hidden; /* Para evitar rolagem horizontal */
 }
 
 h1, h2 {
@@ -24,7 +23,7 @@ a {
     border-radius: 0.5rem;
     padding: 0.625rem 0.9375rem; /* 10px 15px */
     transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.2); /* 0 4px 15px */
 }
 
 .imgBackground {
@@ -37,48 +36,54 @@ a {
 .title {
     font-family: "Archivo Black", sans-serif;
     color: white;
-    padding: 0 4.1875rem; /* 67px */
+    padding-left: 4.1875rem; /* 67px */
     font-size: 5rem; /* 80px */
-    margin: 11.5625rem 0 -1.875rem; /* 185px */
+    margin-top: 11.5625rem; /* 185px */
+    margin-bottom: -1.875rem; /* -30px */
     text-transform: uppercase;
-    text-shadow: 0.5rem 0.0625rem 0.625rem black;
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .subtitle {
     font-family: "Archivo Black", sans-serif;
     color: white;
-    padding: 0 4.1875rem; /* 67px */
+    padding-left: 4.1875rem; /* 67px */
     font-size: 2.375rem; /* 38px */
-    text-shadow: 0.5rem 0.0625rem 0.625rem black;
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .informations {
     font-family: "Bebas Neue", sans-serif;
+    padding-left: 4.1875rem; /* 67px */
     display: flex;
-    align-items: center; /* Alinha verticalmente */
-    padding: 0 4.1875rem; /* 67px */
 }
 
 .buttons {
     font-family: "Anton", sans-serif;
+    padding-left: 0;
     height: 1.4375rem; /* 23px */
+    margin: auto;
+    margin-left: 0.625rem; /* 10px */
     word-spacing: 1.5625rem; /* 25px */
 }
 
 .main-inf {
     font-family: "Bebas Neue", sans-serif;
-    padding: 12.5rem 4.1875rem 0; /* 200px */
+    word-spacing: 0.3125rem; /* 5px */
+    letter-spacing: 0.0625rem; /* 1px */
+    padding-top: 12.5rem; /* 200px */
+    padding-left: 4.1875rem; /* 67px */
     width: 53.75rem; /* 860px */
     text-align: justify;
     margin-top: -14.0625rem; /* -225px */
-    text-shadow: 0.5rem 0.0625rem 0.625rem black;
+    text-shadow: 0.5rem 0.0625rem 0.625rem black; /* 8px 1px 10px */
 }
 
 .bottom-buttons {
     font-family: "Anton", sans-serif;
     color: white;
     margin-top: 2rem; /* 32px */
-    padding: 0 4.1875rem; /* 67px */
+    padding-left: 4.1875rem; /* 67px */
     word-spacing: 0.75rem; /* 12px */
     border: none;
 }
@@ -134,66 +139,27 @@ a {
 
 .right-images div:hover .image-text {
     text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.8);
+    font-size: 2.4375rem; /* 39px */
 }
 
 /* Media query adjustments */
 @media (max-width: 62.5rem) { /* 1000px */
-    .title {
-        font-size: 4rem; /* 64px */
-        margin-top: 8rem; /* 128px */
-    }
-
-    .subtitle {
-        font-size: 2rem; /* 32px */
-    }
-
-    .main-inf {
-        width: 90%; /* Reduz a largura */
-        padding-left: 2rem; /* 32px */
-        padding-right: 2rem; /* 32px */
-    }
-
     .right-images {
-        right: 1rem; /* Alinha à direita em telas menores */
-        width: 80%; /* Ajusta largura */
+        right: 3rem; /* Aumenta o espaço à direita */
+        width: 70%; /* Ajusta largura */
         top: 8rem; /* Ajusta a posição */
-    }
-
-    .right-images div {
-        height: 7rem; /* 112px */
-    }
-
-    .right-images div .image-text {
-        font-size: 1.8rem; /* 29px */
     }
 }
 
 @media (max-width: 37.5rem) { /* 600px */
-    .title {
-        font-size: 3rem; /* 48px */
-        margin-top: 5rem; /* 80px */
-    }
-
-    .subtitle {
-        font-size: 1.5rem; /* 24px */
-    }
-
-    .main-inf {
-        width: 100%; /* Largura total */
-        padding: 1rem; /* 16px */
-    }
-
     .right-images {
-        width: 100%; 
-        right: 0; 
-        top: 5rem; /* 80px */
+        right: 1rem; /* Alinha à direita em telas menores */
+        width: 90%; /* Ajusta largura */
+        top: 5rem; /* Ajusta a posição */
     }
 
     .right-images div {
         height: 5rem; /* 80px */
-    }
-
-    .right-images div .image-text {
-        font-size: 1.5rem; /* 24px */
+        margin-bottom: 1rem; /* Espaçamento entre as imagens */
     }
 }
