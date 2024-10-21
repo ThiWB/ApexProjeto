@@ -211,7 +211,7 @@ button:hover {
 /* Media Queries para telas maiores */
 @media (min-width: 1200px) {
     .title {
-        transform: scale(0.95);
+        transform: scale(0.89);
         font-size: 3rem; /* Aumenta o tamanho do título */
     }
 
@@ -226,8 +226,8 @@ button:hover {
     }
 
     .login-form {
-        margin-right: -6rem;
-        transform: scale(0.90);
+        margin-right: -8rem;
+        transform: scale(0.78);
         width: 95%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
