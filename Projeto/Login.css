@@ -225,8 +225,9 @@ button:hover {
     }
 
     .login-form {
-        transform: scale(0.92);
-        width: 75%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -6rem;
+        transform: scale(0.90);
+        width: 95%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
 }
