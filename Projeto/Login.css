@@ -17,7 +17,19 @@ body {
     background-attachment: fixed; /* Ensure background doesn't scroll */
 }
 
+.container {
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Centraliza os itens na horizontal */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
 .login-form {
+    display: flex; /* Ativa o flexbox para os formulários internos */
+    justify-content: space-between; /* Espaçamento entre os formulários */
+    width: 100%; /* Usa toda a largura disponível */
+}
+
+.form-section {
     width: 31.25rem; /* 500px */
     margin-right: 10.625rem; /* 170px */
     padding: 1.25rem; /* 20px */
@@ -27,6 +39,11 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.75rem; /* 28px */
     box-shadow: 0.3125rem 0.625rem 6.25rem black; /* 5px 10px 100px */
+}
+
+/* Remove o margin-right do último formulário */
+.form-section:last-child {
+    margin-right: 0;
 }
 
 .inf {
@@ -179,8 +196,7 @@ button:hover {
         font-size: 1.5rem; /* Ajusta o tamanho do texto das imagens */
     }
     .login-form {
-        transform: scale(0.8);
-        width: 25%; /* Ajusta a largura dos elementos à direita */
+        width: 55%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
 }
@@ -200,8 +216,8 @@ button:hover {
     }
 
     .login-form {
-        transform: scale(0.8);
-        width: 25%; /* Ajusta a largura dos elementos à direita */
+        transform: scale(0.92);
+        width: 75%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
 }

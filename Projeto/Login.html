@@ -23,23 +23,29 @@
     </div>
 
     <div class="login-container">
-        <div class="login-form">
-            <h2>Crie sua Conta</h2>
-            <form id="registrationForm" onsubmit="return handleRegistration(event)">
-                <input type="email" id="email" placeholder="Email" required>
-                <input type="password" id="password" placeholder="Senha" required>
-                <br><br>
-                <button type="submit">Criar Conta</button>
-            </form>
-
-            <h2>Já possui uma conta? Faça login</h2>
-            <form id="loginForm" onsubmit="return handleLogin(event)">
-                <input type="email" id="loginEmail" placeholder="Email" required>
-                <input type="password" id="loginPassword" placeholder="Senha" required>
-                <br><br>
-                <button type="submit">Login</button>
-                <button type="button" onclick="googleLogin()">Login com Google</button>
-            </form>
+        <div class="container">
+            <div class="login-form">
+                <div class="form-section">
+                    <h2>Crie sua Conta</h2>
+                    <form id="registrationForm" onsubmit="return handleRegistration(event)">
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="password" id="password" placeholder="Senha" required>
+                        <br><br>
+                        <button type="submit">Criar Conta</button>
+                    </form>
+                </div>
+        
+                <div class="form-section">
+                    <h2>Já possui uma conta? Faça login</h2>
+                    <form id="loginForm" onsubmit="return handleLogin(event)">
+                        <input type="email" id="loginEmail" placeholder="Email" required>
+                        <input type="password" id="loginPassword" placeholder="Senha" required>
+                        <br><br>
+                        <button type="submit">Login</button>
+                        <button type="button" onclick="googleLogin()">Login com Google</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
