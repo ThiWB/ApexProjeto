@@ -107,8 +107,9 @@
 
 /* Additional styles for centering */
 .card {
-    margin-top: 5.625rem; /* 90px */
-    margin-left: 45rem; /* 720px */
+    transform: scale(0.78);
+    margin-top: 2.625rem; /* 90px */
+    margin-left: 40rem; /* 720px */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centering contents in the card */
@@ -357,3 +358,133 @@ a {
         right: 0; 
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow: hidden; /* Remove a barra de rolagem */
+    }
+
+    .title {
+        font-size: 2rem; /* Ajusta o tamanho do título */
+        margin-top: 8rem; /* Ajusta a margem superior */
+    }
+
+    .subtitle {
+        font-size: 1.5rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 90%; /* Aumenta a largura do texto */
+        padding-left: 2rem; /* Ajusta o padding */
+    }
+
+    .right-images {
+        width: 80%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -200px; /* Centraliza na tela */
+        top: 5rem; /* Ajusta a posição */
+    }
+
+    .right-images div {
+        height: 5rem; /* Ajusta a altura das imagens */
+    }
+
+    .right-images div .image-text {
+        font-size: 1.5rem; /* Ajusta o tamanho do texto das imagens */
+    }
+}
+
+/* Media Queries para telas maiores */
+@media (min-width: 1200px) {
+    .title {
+        font-size: 3rem; /* Aumenta o tamanho do título */
+    }
+
+    .subtitle {
+        font-size: 3rem; /* Aumenta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 50%; /* Aumenta a largura do texto */
+    }
+
+    .right-images {
+        margin-right: -100px;
+        width: 25%; /* Ajusta a largura dos elementos à direita */
+        top: 10rem; /* Mantém a posição */
+    }
+}
+
+/* Media Queries para telas muito pequenas */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.6rem; /* Ajusta o tamanho do título */
+        margin-top: 5rem; /* Ajusta a margem superior */
+    }
+
+    .subtitle {
+        font-size: 0.8rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 95%; /* Aumenta a largura do texto */
+        padding-left: 1rem; /* Ajusta o padding */
+        margin-top: -10rem; /* Ajusta a margem superior */
+    }
+
+    .right-images {
+        width: 90%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -50px; /* Centraliza na tela */
+        top: 3rem; /* Ajusta a posição */
+    }
+
+    .right-images div {
+        height: 4rem; /* Ajusta a altura das imagens */
+    }
+
+    .right-images div .image-text {
+        font-size: 1.2rem; /* Ajusta o tamanho do texto das imagens */
+    }
+
+    .buttons {
+        word-spacing: 1rem; /* Reduz o espaçamento entre os botões */
+    }
+
+    .bottom-buttons {
+        font-size: 1.2rem; /* Ajusta o tamanho do texto dos botões inferiores */
+        padding-left: 1rem; /* Ajusta o padding */
+    }
+}
+
+/* Media Queries para telas intermediárias */
+@media (max-width: 768px) and (min-width: 481px) {
+    .title {
+        font-size: 2.0rem; /* Ajusta o tamanho do título */
+        margin-top: 7rem; /* Ajusta a margem superior */
+    }
+
+    .subtitle {
+        font-size: 1.3rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .main-inf {
+        width: 90%; /* Aumenta a largura do texto */
+        padding-left: 2rem; /* Ajusta o padding */
+        margin-top: -12rem; /* Ajusta a margem superior */
+    }
+
+    .right-images {
+        width: 80%; /* Ajusta a largura dos elementos à direita */
+        margin-right: -100px; /* Centraliza na tela */
+        top: 5rem; /* Ajusta a posição */
+    }
+
+    .right-images div {
+        height: 6rem; /* Ajusta a altura das imagens */
+    }
+
+    .right-images div .image-text {
+        font-size: 1.8rem; /* Ajusta o tamanho do texto das imagens */
+    }
+}
+
+

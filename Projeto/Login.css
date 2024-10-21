@@ -65,6 +65,7 @@ body {
 }
 
 .title {
+    transform: scale(0.79);
     font-family: "Archivo Black", sans-serif;
     color: white;
     padding-left: 4.1875rem; /* 67px */
@@ -172,13 +173,13 @@ button:hover {
     }
 
     .title {
-        transform: scale(0.95);
+        transform: scale(0.79);
         font-size: 2rem; /* Ajusta o tamanho do título */
         margin-top: 8rem; /* Ajusta a margem superior */
     }
 
     .subtitle {
-        transform: scale(0.95);
+        transform: scale(0.79);
         font-size: 1.5rem; /* Ajusta o tamanho do subtítulo */
     }
 
@@ -215,7 +216,7 @@ button:hover {
     }
 
     .subtitle {
-        transform: scale(0.95);
+        transform: scale(0.78);
         font-size: 3rem; /* Aumenta o tamanho do subtítulo */
     }
 
