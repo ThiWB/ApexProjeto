@@ -17,7 +17,7 @@ body {
 }
 
 .login-form {
-    width: 31.25rem; /* 500px */
+    width: 25.25rem; /* 500px */
     margin-right: -68.25rem; /* 100px */
     padding: 1.25rem; /* 20px */
     background: url(border.jpg);
@@ -143,8 +143,7 @@ input {
 /* Media query adjustments */
 @media (max-width: 62.5rem) { /* 1000px */
     .login-form {
-        width: 90%; /* Reduz a largura */
-        margin-right: 2rem; /* 32px */
+        transform: scale(0.88);
     }
 
     .inf {
@@ -173,8 +172,7 @@ input {
 
 @media (max-width: 37.5rem) { /* 600px */
     .login-form {
-        width: 100%; /* Largura total */
-        margin-right: 0; /* Remove margem */
+        transform: scale(0.88);
     }
 
     .inf {
@@ -193,5 +191,29 @@ input {
     .button {
         width: 70%; /* Aumenta a largura do botão */
         margin-left: 15%; /* Centraliza o botão */
+    }
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        transform: scale(0.88);
+    }
+}
+
+@media (min-width: 1200px) {
+    .login-form {
+        transform: scale(0.88);
+    }
+}
+
+@media (max-width: 480px) {
+    .login-form {
+        transform: scale(0.88);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .login-form {
+        transform: scale(0.88);
     }
 }

@@ -23,14 +23,16 @@ ul {
 }
 
 .login-form {
-    margin-right: 45.375rem; /* 1430px */
-    margin-top: -27.5rem; /* -600px */
+    transform: scale(0.7);
+    margin-right: 89.375rem; /* 1430px */
+    margin-top: -33.5rem; /* -600px */
     padding: 1.25rem; /* 20px */
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.75rem; /* 28px */
 }
 
 .login-form a {
+    transform: scale(0.7);
     margin-left: 0.125rem; /* 2px */
 }
 
@@ -200,7 +202,7 @@ button:hover {
         font-size: 1.5rem; /* Ajusta o tamanho do texto das imagens */
     }
     .login-form {
-        transform: scale(0.8);
+        transform: scale(0.7);
         width: 25%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
@@ -221,7 +223,7 @@ button:hover {
     }
 
     .login-form {
-        transform: scale(0.8);
+        transform: scale(0.7);
         width: 25%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
@@ -268,7 +270,7 @@ button:hover {
     }
     .login-form {
         margin-left: 67rem;
-        transform: scale(0.8);
+        transform: scale(0.7);
         width: 25%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
@@ -306,7 +308,7 @@ button:hover {
     }
     .login-form {
         margin-left: 67rem;
-        transform: scale(0.8);
+        transform: scale(0.7);
         width: 25%; /* Ajusta a largura dos elementos à direita */
         top: 10rem; /* Mantém a posição */
     }
